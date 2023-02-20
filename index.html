@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Weather App</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<br>
+  <div class ="container">
+    <div class="col-md-4 col-md-offset-4 ">
+    <div class="card">
+      <div class ="header">
+        <div class="row text-center">
+          <div class="col-md-12">
+          <input placeholder="City" id="search" onkeydown="search(this)"></input>
+          </div>
+        </div>
+      
+        
+<div class= "row text-center" id="header">
+  <div class="col-md-12">
+    <div><h1 id="city"></h1></div>
+    <canvas  id="icon1" width="128" height="128"></canvas>
+  </div>
+</div>
+<div class="row text-center">
+  <div class="col-md-12">  
+    <h1 id="temperature">TEMPERATURE</h1>
+    <button class="btn btn-success" onClick="toggleUnits()"> Toggle Unit</button>
+  </div>
+</div>
+<div class="row text-center">
+  <div class="col-md-12">  
+    <h4 id="info">Current weather</h4>
+  </div>
+</div>
+      </div>
+<div class="row text-center" id="gif" style="padding:0px; margin:0px;">
+  <div class="col-md-12">  
+    <h1 id="gif">- -</h1>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://rawgithub.com/darkskyapp/skycons/master/skycons.js'></script>
+<script src='https://cdn.jsdelivr.net/jquery.blurjs/0.1/blur.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+  background-color:#ecf0f1;
+}
+.btn, .btn:focus, .btn:hover{
+  border-radius:24px;
+  background:none;
+  color:white;
+  border-color:white;
+}
+
+.card{
+  box-shadow: 2px 5px 40px 3px #888888;
+
+}
+
+.header{
+  
+  
+  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9) ),url('https://awesomewallpaper.files.wordpress.com/2013/04/grass-blades.jpg');
+  background-size: 100%;
+    
+}
+#gif{
+  background-color:black;
+}
+
+#city{
+  color:white;
+}
+#temperature{
+  color:white;
+}
+
+#info{
+  color:white;
+  padding:10px;
+}
+
+#search{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
